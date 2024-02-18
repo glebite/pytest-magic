@@ -17,3 +17,7 @@ def test_xfail():
 
 def test_error():
     assert 1/0
+
+
+def test_skip():
+    pytest.skip("Skipping because...")
